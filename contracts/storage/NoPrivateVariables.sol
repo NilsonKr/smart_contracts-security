@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 
-contract TestDeploy {
+contract NoPrivateVariables {
   uint256 private secretNumber;
 
   constructor (uint256 num) {

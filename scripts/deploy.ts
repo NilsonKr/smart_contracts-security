@@ -14,7 +14,7 @@ async function main() {
   // await hre.run('compile');
 
   // We get the contract to deploy
-  const Greeter = await ethers.getContractFactory("TestDeploy");
+  const Greeter = await ethers.getContractFactory("NoPrivateVariables");
   const greeter = await Greeter.deploy("24");
 
   await greeter.deployed();
